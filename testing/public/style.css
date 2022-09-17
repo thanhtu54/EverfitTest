@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1313px;
+    width: 100%;
+    margin : 0 auto;
+    margin-top: 89px;
+}
+.title-date {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6A7988;
+}
+.container ul {
+    display: inline-block;
+}
+.container ul li {
+    float: left;
+    width: 179px;
+    margin-right: 10px;
+    list-style: none;
+}
+.container ul li:last-child {
+    margin-right: 0;
+}
+.exercises {
+    background-color: #F3F5F8;
+    height: calc(100vh - 167px);
+}
+.date {
+    padding-top: 9.87px;
+    padding-left: 9.42px;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6A7988;
+}
+/* detail-excercise */
+.detail-excercise {
+    width: 165px;
+    margin: auto;
+}
+.name-excercise {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.title-excercise {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.title-excercise p {
+    margin-right: 5px;
+}
+.title-excercise li {
+    float: left;
+}
+.detail-excercise {
+    border-radius: 6px;
+}
+.name-excercise {
+    color: #5A57CB !important;
+    text-transform: uppercase;
+}
+.name-ex {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: right;   
+    color: #919CAD; 
+}
+.title-ex{
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: right;
+
+}
+.spec-ex{
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #95A6B7;
+}
+.name-excercise {
+    margin-top: 4.93px;
+    margin-left: 7px;
+}
+.icon {
+    margin-right: 5px;
+}
+.list-excercise {
+    background-color: #Ffff;
+    width: 151px;
+    margin: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 4.93px;
+    margin-top: 3.95px;
+}
+
+#icon-plus{
+    text-align: right;
+    margin-right: 3px;
+}
+.exercises {
+    border-radius:  6px;
+}
+.container ul li:nth-child(5) .date {
+    color: #5A57CB;
+}
